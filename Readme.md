@@ -3,7 +3,7 @@
 
 ### Collected from websites such as:
 1. [CodingBat](./CodingBat)
-2. [Hackerrank]()
-3. [Leetcode]()
-4. [Codeabbey]()
-5. [Python-challenge]()
+2. [Hackerrank](./Hackerrank)
+3. [Leetcode](./Leetcode)
+4. [Project-Euler](./Project-Euler)
+5. [Python-challenge](./Python-challenge)
