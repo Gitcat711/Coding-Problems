@@ -7,7 +7,3 @@
 The Pair of functions that would help up to make change.
 - `ord()` - character to integer
 - `chr()` - integer to character
-
-## Other Methods
-- `str.maketrans()` or `bytes.maketrans()`
-- `zip` and `map` to create a single function.
