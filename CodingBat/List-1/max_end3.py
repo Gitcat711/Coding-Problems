@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 
 #Given an array of ints length 3, figure out which is larger, 
 #the first or last element in the array, and set all the other 
@@ -10,3 +11,5 @@ def max_end3(nums):
     maxim = max(nums[0], nums[2])
     nums[0]= nums[1] = nums[2] = maxim
     return nums
+    
+print(max_end3([1, 2, 3]))

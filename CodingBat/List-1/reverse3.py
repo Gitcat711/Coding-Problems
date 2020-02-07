@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 #Given an array of ints length 3, return a new array 
 #with the elements inn reverse order
 #so {1, 2, 3} becomes {3, 2, 1}.
@@ -7,10 +9,13 @@
 
 def reverse3(nums):
     return nums[::-1]
+print(reverse3([1, 2, 3]))
 
-def reverse3(nums):
+def reverse_3(nums):
     return list(reversed(nums))
+print(reverse3([5, 11, 9]))
 
-def reverse3(nums):
+def reverse(nums):
     nums.reverse()
     return nums
+print(reverse3([7, 0, 0]))

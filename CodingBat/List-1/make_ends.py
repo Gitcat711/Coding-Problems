@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 
 #Given an array of ints, return a new array length 2 containing the first 
 #and last elements from the original array. The original array will be
@@ -6,6 +7,7 @@
 	#make_ends([1, 2, 3, 4]) → [1, 4]
 	#make_ends([7, 4, 6, 2]) → [7, 2]
 
-def make_end(nums):
+def make_ends(nums):
     return [nums[0],nums[-1]]
 
+print(make_ends([1, 2, 3]))

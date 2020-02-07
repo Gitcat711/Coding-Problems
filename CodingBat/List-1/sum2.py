@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 
 #Given an array of ints, return the sum of the first 2 elements in the
 #array. If the array length is less than 2, just sum up the
@@ -12,4 +13,4 @@ def sum2(nums):
 
     return nums[0] + nums[1]
 
-
+print(sum2([1, 2, 3]))
