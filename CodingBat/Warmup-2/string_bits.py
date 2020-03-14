@@ -1,17 +1,20 @@
+#!/usr/bin/env python3
+
 # Given a string, return a new string made of every other char starting with
 # the first, so "Hello" yields "Hlo".
 
-def string_bits(istr):
-    return istr[::2]
+# string_bits('Hello') → 'Hlo'
+# string_bits('Hi') → 'H'
+# string_bits('Heeololeo') → 'Hello
 
-def string_bits_1(istr):
+def string_bits(s):
+    return s[::2]
+print(string_bits('Hello'))
+
+def string_bits_1(s):
     result = ""
-    for i in range(len(istr)):
+    for i in range(len(s)):
         if i % 2 == 0:
-            result += istr[i]
+            result += s[i]
     return result
-
-string_bits("Andromeda")
-string_bits_1("Stellar")
-
-                
+print(string_bits_1("Andromeda"))

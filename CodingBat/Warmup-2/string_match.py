@@ -1,7 +1,13 @@
+#!/usr/bin/env python3
+
 # Given 2 Strings, a and b, return the number
 # of the positions where they contain the same
 # length 2 2 substring. SO "xxcaazz" and "xxbaaz" yeilds 3,
 # since the "xx", "aa" & "az" substings appear in the same place in both stings.
+
+# string_match('xxcaazz', 'xxbaaz') → 3
+# string_match('abc', 'abc') → 2
+# string_match('abc', 'axc') → 0
 
 def strings_match(a, b):
     count = 0
